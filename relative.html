@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .border{
+            border: 2px solid;
+            width: 640px;
+            height: 500px;
+            position: relative;
+        }
+        .text{
+            position: relative;
+            left: 45%;
+            top: 50px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .cont-top-left-1{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            padding-top: 10px;
+            position: relative;
+            bottom: 50px;
+            right: 20px;
+        }
+    
+        .pos{
+            position: relative;
+            top: 50px;
+        }
+        .h-1{
+            height: 150px;
+            width: 20px;
+            background-color: palevioletred;
+            position: absolute;
+            left: 20px;
+            border-radius: 10px;
+            z-index: 1;
+        }
+        .h-2{
+            height: 20px;
+            width: 100px;
+            background-color: aqua;
+            position: absolute;
+            left: 20px;
+            top: 60px;
+            
+            border-radius: 10px;
+
+        }
+        .h-3{
+            height: 150px;
+            width: 20px;
+            background-color: palevioletred;
+            position: absolute;
+            left: 100px;
+            border-radius: 10px;
+        }
+        .e-1{
+            height: 150px;
+            width: 20px;
+            background-color: lightsalmon;
+            position: absolute;
+            left: 140px;
+            z-index: 1;
+            border-radius: 10px;
+        }
+        .e-2{
+            height: 20px;
+            width: 100px;
+            background-color: crimson;
+            position: absolute;
+            left: 140px;
+            border-radius: 10px;
+        }
+        .e-3{
+            height: 20px;
+            width: 100px;
+            background-color:crimson;
+            position: absolute;
+            left: 140px;
+            top: 60px;
+            border-radius: 10px;
+        }
+        .e-4{
+            height: 20px;
+            width: 100px;
+            background-color:crimson;
+            position: absolute;
+            left: 140px;
+            top: 130px;
+            border-radius: 10px;
+        }
+        .l-1{
+            height: 150px;
+            width: 20px;
+            background-color: darkslategrey;
+            position: absolute;
+            left: 260px;
+            border-radius: 10px;
+        }
+        .l-2{
+            height: 20px;
+            width: 100px;
+            background-color:fuchsia;
+            position: absolute;
+            left: 260px;
+            top: 130px;
+            border-radius: 10px;
+        }
+        .l-3{
+            height: 150px;
+            width: 20px;
+            background-color:goldenrod;
+            position: absolute;
+            left: 380px;
+            z-index: 1;
+            border-radius: 10px;
+        }
+        .l-4{
+            height: 20px;
+            width: 100px;
+            background-color:rgb(76, 184, 76);
+            position: absolute;
+            left: 380px;
+            top: 130px;
+            border-radius: 10px;
+        }
+        .o-1{
+            height: 150px;
+            width: 20px;
+            background-color: navy;
+            position: absolute;
+            left: 500px;
+            z-index: 1;
+            border-radius: 10px;
+        }
+        .o-2{
+            height: 20px;
+            width: 120px;
+            background-color: orange;
+            position: absolute;
+            left: 500px;
+            border-radius: 10px;
+        }
+        .o-3{
+            height: 150px;
+            width: 20px;
+            background-color: navy;
+            position: absolute;
+            left: 600px;
+            z-index: 1;
+            border-radius: 10px;
+        }
+        .o-4{
+            height: 20px;
+            width: 120px;
+            background-color: orange;
+            position: absolute;
+            left: 500px;
+            top: 130px;
+            border-radius: 10px;
+        }
+        .cont-left-bottom-2{
+            width: 100px;
+            height: 100px;
+            background-color: cornflowerblue;
+            position: relative;
+            top: 300px;
+            right: 10px;
+        }
+        .cont-left-bottom-3{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(170, 58, 151);
+            position: relative;
+            top: 170px;
+            left: 20px;
+        }
+        .cont-right-bottom-4{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(42, 185, 161);
+            position: relative;
+            left: 560px;
+            top: 110px;
+            
+        }
+        .cont-right-bottom-5{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(216, 205, 44);
+            position: relative;
+            left: 530px;
+            bottom: 20px;
+
+        }
+        .cont-top-right-1{
+            width: 100px;
+            height: 100px;
+            background-color: peru;
+            position: relative;
+            bottom: 550px;
+            left: 550px;    
+        }
+        .cont-top-right-2{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(12, 67, 150);
+            position: relative;
+            bottom: 620px;
+            left: 520px; 
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="border">
+        <div class="text">RELATIVE</div>
+        <div class="cont-top-left-1"></div>
+        
+        <div class="pos">
+            <div class="h-1"></div>
+            <div class="h-2"></div>
+            <div class="h-3"></div>
+
+            <div class="e-1"></div>
+            <div class="e-2"></div>
+            <div class="e-3"></div>
+            <div class="e-4"></div>
+
+            <div class="l-1"></div>
+            <div class="l-2"></div>
+
+            <div class="l-3"></div>
+            <div class="l-4"></div>
+
+            <div class="o-1"></div>
+            <div class="o-2"></div>
+            <div class="o-3"></div>
+            <div class="o-4"></div>
+        </div>
+
+        <div class="cont-left-bottom-2"></div>
+        <div class="cont-left-bottom-3"></div>
+
+        <div class="cont-right-bottom-4"></div>
+        <div class="cont-right-bottom-5"></div>
+
+        <div class="cont-top-right-1"></div>
+        <div class="cont-top-right-2"></div>
+
+    </div>
+</body>
+</html>
